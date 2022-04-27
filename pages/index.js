@@ -9,7 +9,7 @@ function Text(props){
 function Card(props){
   return(
     <>
-      <div className="flex justify-center items-end m-[23px] w-[177px] h-[256px] rounded-[30px] bg-[green] hover:border-4 border-[#54C5C9]">
+      <div className="flex justify-center items-end m-[23px] w-[177px] h-[256px] rounded-[30px]  bg-[green] drop-shadow-[5px_10px_20px_rgba(0,0,0,0.25)] border-4 border-[green] hover:border-4 hover:border-[#54C5C9] ">
         <Text>{props.children}</Text>
       </div>
     </>
